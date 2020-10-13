@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["HMnRE"]); }
+
+__d("useStoriesBucketsConnectionArguments",["React","StoriesGating","StoriesQueryArgumentsContext"],(function(a,b,c,d,e,f){"use strict";e.exports=a;var g=b("React");function a(){var a=g.useContext(b("StoriesQueryArgumentsContext")),c=a.hideSelfBucket;a=a.initialBucketID;var d=b("StoriesGating").shouldUseCombinedTrayViewerQuery();a=d?void 0:{front_pin_buckets:[a],hide_self_bucket:c};c=d?"useStoriesCombinedTrayViewer_unified_stories_buckets":"useStoriesViewerBuckets_unified_stories_buckets";return{connectionArguments:a,connectionName:c}}}),null);

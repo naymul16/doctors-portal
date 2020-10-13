@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["m+29y"]); }
+
+__d("CometFRXQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"4476587655749993",metadata:{relayPreloadable:!0},name:"CometFRXQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("CometFRX.entrypoint",["CometFRXQuery$Parameters","JSResource","WebPixelRatio"],(function(a,b,c,d,e,f){"use strict";a={getPreloadProps:function(a){var c=a.entryPoint,d=a.id,e=a.location;a=a.responsible_id;return{queries:{frx:{parameters:b("CometFRXQuery$Parameters"),variables:{input:{entry_point:c,id:d,location:e,responsible_id:a},scale:b("WebPixelRatio").get()}}}}},root:b("JSResource")("CometFRX.react").__setRef("CometFRX.entrypoint")};e.exports=a}),null);
